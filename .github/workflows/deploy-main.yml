@@ -30,9 +30,7 @@ jobs:
       # Define a step named "Test"
       - name: Test
         # Run install and test scripts
-        run: |
-            npm install
-            run: npm run test-component
+        run: npm run test-component
 
       # Define a step named "Deploy"
       - name: Deploy
