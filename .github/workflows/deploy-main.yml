@@ -26,7 +26,9 @@ jobs:
         with:
           node-version: 21.x
       
-
+      - name: Run Build
+        run: npm run build
+        
       # Define a step named "Test"
       - name: Test
         # Run install and test scripts
